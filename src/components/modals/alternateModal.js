@@ -8,7 +8,7 @@ const emailSignupModal = props => {
         <ModalWrapper allowExit={true} handleModalClose={ props.handleModalClose }>
             <div className="m-alternate-modal">
                 <hgroup>
-                    <h2>Alternate Modal Heading</h2>
+                    <h2>{props.heading.text}</h2>
                 </hgroup>
 
                 <form onSubmit={ e => e.preventDefault() } className="m-alternate-modal__form">
