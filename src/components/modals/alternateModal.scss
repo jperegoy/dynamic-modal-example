@@ -1,0 +1,28 @@
+.m-alternate-modal {
+    &__form {
+        width: 520px;
+        overflow: hidden;
+        box-shadow: 0 16px 32px hsla(0, 0%, 0%, .2), 0 8px 16px hsla(0, 0%, 0%, .1);
+        border-radius: 6px;
+
+        display: flex;
+        flex-direction: column;
+        
+        input, button {
+            border: 0;
+            padding: 12px;
+            text-align: center;
+        }
+        input { font-size: 16px; }
+        button {
+            outline: none;
+            cursor: pointer;
+
+            background-color: #00bfff;
+            background-color: hsl(195, 100%, 50%);
+
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+}
